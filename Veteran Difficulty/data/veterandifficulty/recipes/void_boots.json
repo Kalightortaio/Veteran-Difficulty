@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "X#X",
+    "XNX"
+  ],
+  "key": {
+    "X": {
+      "item": "minecraft:structure_block"
+    },
+    "#": {
+      "item": "minecraft:nether_star"
+    },
+    "N": {
+      "item": "minecraft:netherite_boots"
+    }
+  },
+  "result": {
+    "item": "minecraft:dirt_path"
+  }
+}

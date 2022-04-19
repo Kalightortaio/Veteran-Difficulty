@@ -1,0 +1,56 @@
+{
+  "type": "minecraft:block",
+  "pools": [
+    {
+      "rolls": 1.0,
+      "entries": [
+        {
+          "type": "minecraft:alternatives",
+          "children": [
+            {
+              "type": "minecraft:item",
+              "name": "minecraft:pumpkin",
+              "conditions": [
+                {
+                  "condition": "minecraft:match_tool",
+                  "predicate": {
+                    "items": [
+                      "minecraft:shears"
+                    ]
+                  }
+                }
+              ]
+            },
+            {
+              "type": "group",
+              "children": [
+                {
+                  "type": "minecraft:item",
+                  "name": "minecraft:tropical_fish",
+                  "functions": [
+                    {
+                      "function": "minecraft:set_count",
+                      "count": {
+                        "min": 3,
+                        "max": 7
+                      }
+                    },
+                    {
+                      "function": "minecraft:set_nbt",
+                      "tag": "{CustomModelData:1,display:{Name:'{\"text\":\"Pumpkin Slice\",\"italic\":false}'}}"
+                    }
+                  ],
+                  "conditions": [
+                    {
+                      "condition": "minecraft:survives_explosion"
+                    }
+                  ]
+                }
+              ]
+            }
+          ] 
+        }
+      ]    
+    }
+  ]
+}

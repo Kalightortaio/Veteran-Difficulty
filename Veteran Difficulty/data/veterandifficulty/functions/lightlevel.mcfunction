@@ -1,0 +1,16 @@
+execute if predicate veterandifficulty:light_0 run scoreboard players set @s VDlightlevel 0
+execute if predicate veterandifficulty:light_1 run scoreboard players set @s VDlightlevel 1
+execute if predicate veterandifficulty:light_2 run scoreboard players set @s VDlightlevel 2
+execute if predicate veterandifficulty:light_3 run scoreboard players set @s VDlightlevel 3
+execute if predicate veterandifficulty:light_4 run scoreboard players set @s VDlightlevel 4
+execute if predicate veterandifficulty:light_5 run scoreboard players set @s VDlightlevel 5
+execute if predicate veterandifficulty:light_6 run scoreboard players set @s VDlightlevel 6
+execute if predicate veterandifficulty:light_7 run scoreboard players set @s VDlightlevel 7
+execute if predicate veterandifficulty:light_8 run scoreboard players set @s VDlightlevel 8
+execute if predicate veterandifficulty:light_9 run scoreboard players set @s VDlightlevel 9
+execute if predicate veterandifficulty:light_10 run scoreboard players set @s VDlightlevel 10
+execute if predicate veterandifficulty:light_11 run scoreboard players set @s VDlightlevel 11
+execute if predicate veterandifficulty:light_12 run scoreboard players set @s VDlightlevel 12
+execute if predicate veterandifficulty:light_13 run scoreboard players set @s VDlightlevel 13
+execute if predicate veterandifficulty:light_14 run scoreboard players set @s VDlightlevel 14
+execute if predicate veterandifficulty:light_15 run scoreboard players set @s VDlightlevel 15

@@ -1,0 +1,2 @@
+summon wolf ~ ~ ~ {AngerTime:2000000,Tags:["emwolf","wolfhostile"],Health:40f,Attributes:[{Base:40.0d,Name:"generic.max_health"}],Passengers:[{id:"minecraft:zombie",Silent:1b,Health:1f,Attributes:[{Base:1.0d,Name:"generic.max_health"}],CanPickUpLoot:0b,IsBaby:1b,Tags:["wolfbite"],CustomName:'{"text":"Wolf"}',DeathLootTable:"minecraft:empty",ActiveEffects:[{Id:14b,Amplifier:1b,Duration:20000000,ShowParticles:0b}]}]}
+kill @s

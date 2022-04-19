@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "XXX",
+    "XNX",
+    " # "
+  ],
+  "key": {
+    "X": {
+      "item": "minecraft:structure_block"
+    },
+    "#": {
+      "item": "minecraft:nether_star"
+    },
+    "N": {
+      "item": "minecraft:netherite_helmet"
+    }
+  },
+  "result": {
+    "item": "minecraft:infested_chiseled_stone_bricks"
+  }
+}

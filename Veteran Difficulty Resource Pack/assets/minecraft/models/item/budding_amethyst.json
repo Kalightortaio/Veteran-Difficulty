@@ -1,0 +1,18 @@
+{
+  "parent": "minecraft:block/budding_amethyst",
+  "overrides": [
+    {"predicate": {"custom_model_data": 1}, "model": "gui/nutrition_base"},
+    {"predicate": {"custom_model_data": 2}, "model": "minecraft:item/air"},
+    {"predicate": {"custom_model_data": 3}, "model": "minecraft:item/apple"},
+    {"predicate": {"custom_model_data": 4}, "model": "minecraft:item/cooked_beef"},
+    {"predicate": {"custom_model_data": 5}, "model": "minecraft:item/carrot"},
+    {"predicate": {"custom_model_data": 6}, "model": "minecraft:item/bread"},
+    {"predicate": {"custom_model_data": 7}, "model": "minecraft:item/cookie"},
+    {"predicate": {"custom_model_data": 8}, "model": "minecraft:item/water_bucket"},
+    {"predicate": {"custom_model_data": 9}, "model": "gui/bar1"},
+    {"predicate": {"custom_model_data": 10}, "model": "gui/bar2"},
+    {"predicate": {"custom_model_data": 11}, "model": "gui/bar3"},
+    {"predicate": {"custom_model_data": 12}, "model": "gui/bar4"},
+    {"predicate": {"custom_model_data": 13}, "model": "gui/bar5"}
+  ]
+}

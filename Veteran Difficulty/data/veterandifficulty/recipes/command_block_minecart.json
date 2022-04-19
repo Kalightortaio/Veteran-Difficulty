@@ -1,0 +1,23 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "#S#",
+        "SNS",
+        "#S#"
+    ],
+    "key": {
+        "#": {
+            "item": "minecraft:item_frame"
+        },
+        "S": {
+            "item": "minecraft:structure_block"
+        },
+        "N": {
+            "item": "minecraft:nether_star"
+        }
+    },
+    "result": {
+        "item": "minecraft:command_block_minecart",
+        "count": 1
+    }
+}

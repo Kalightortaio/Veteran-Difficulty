@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " X ",
+    "WNW",
+    " # "
+  ],
+  "key": {
+    "#": {
+      "item": "minecraft:stick"
+    },
+    "N": {
+      "item": "minecraft:netherite_sword"
+    },
+    "W": {
+      "item": "minecraft:wither_rose"
+    },
+    "X": {
+      "item": "minecraft:structure_block"
+    }
+  },
+  "result": {
+    "item": "minecraft:infested_cobblestone"
+  }
+}

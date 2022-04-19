@@ -1,0 +1,2 @@
+summon minecraft:witch ~ ~ ~ {Tags:["spellcaster"],Passengers:[{id:"guardian",Tags:["spell"],CustomName:'{"text":"Witch"}',ActiveEffects:[{Id:14,Amplifier:0,Duration:200000,ShowParticles:0b}],Silent:1b,DeathLootTable:"minecraft:empty",Invulnerable:0b}]}
+teleport ~ -256 ~

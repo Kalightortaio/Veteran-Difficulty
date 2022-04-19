@@ -1,0 +1,1 @@
+execute as @e[tag=disguisedIllu] at @s run function veterandifficulty:updatedisguise

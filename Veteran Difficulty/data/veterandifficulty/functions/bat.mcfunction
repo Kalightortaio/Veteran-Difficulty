@@ -1,0 +1,3 @@
+data merge entity @s {Tags:["notbitingbat"],DeathLootTable:"minecraft:empty"}
+execute unless entity @e[tag=bitingbat,distance=0..2] run summon minecraft:bat ~ ~ ~ {Tags:["bitingbat"],DeathLootTable:"veterandifficulty:custombats",Passengers:[{id:"husk",Tags:["bite"],ActiveEffects:[{Id:14,Amplifier:0,Duration:200000,ShowParticles:0b}],IsBaby:1,Silent:1,DeathLootTable:"minecraft:empty",Invulnerable:1,CustomName:'{"text":"Bat"}'}]}
+execute if entity @e[tag=bitingbat,type=bat,distance=0..2] run kill @s

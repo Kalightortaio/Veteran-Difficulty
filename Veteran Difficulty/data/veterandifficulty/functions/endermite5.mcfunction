@@ -1,0 +1,2 @@
+execute if predicate veterandifficulty:20p if score @s VDendermiteNum matches 0..15 run summon minecraft:endermite ~ ~ ~ {Attributes:[{Name:generic.max_health,Base:20},{Name:generic.movement_speed,Base:0.4},{Name:generic.attack_damage,Base:5}],Health:20,Tags:["wsupdate"],DeathLootTable:"veterandifficulty:endermite"}
+execute if predicate veterandifficulty:5p if score @s VDendermiteNum matches 0..15 run summon minecraft:endermite ~ ~ ~ {Attributes:[{Name:generic.movement_speed,Base:0.4}]}

@@ -1,0 +1,1 @@
+execute in minecraft:overworld at @e[type=player,x=0,limit=1,sort=random] run function veterandifficulty:spawndisguise

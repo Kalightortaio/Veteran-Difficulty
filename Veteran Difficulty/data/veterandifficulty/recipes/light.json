@@ -1,0 +1,36 @@
+{
+    "type": "minecraft:crafting_shapeless",
+    "ingredients": [
+        {
+            "item": "minecraft:structure_void"
+        },
+        {
+            "item": "minecraft:structure_void"
+        },
+        {
+            "item": "minecraft:structure_void"
+        },
+        {
+            "item": "minecraft:structure_void"
+        },
+        {
+            "item": "minecraft:crying_obsidian"
+        },
+        {
+            "item": "minecraft:phantom_membrane"
+        },
+        {
+            "item": "minecraft:phantom_membrane"
+        },
+        {
+            "item": "minecraft:phantom_membrane"
+        },
+        {
+            "item": "minecraft:phantom_membrane"
+        }
+    ],
+    "result": {
+        "item": "minecraft:light",
+        "count": 1
+    }
+}

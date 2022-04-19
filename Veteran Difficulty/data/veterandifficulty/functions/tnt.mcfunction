@@ -1,0 +1,2 @@
+execute at @s if score @p VDpunchtnt matches 1.. unless entity @e[nbt={SelectedItem:{id:"minecraft:shears",Count:1b}}] run summon minecraft:tnt ~ ~ ~ {Fuse:80,Motion:[0.01,0.2,0.01]}
+execute as @s if score @p VDpunchtnt matches 1.. unless entity @e[nbt={SelectedItem:{id:"minecraft:shears",Count:1b}}] run function veterandifficulty:tnt2

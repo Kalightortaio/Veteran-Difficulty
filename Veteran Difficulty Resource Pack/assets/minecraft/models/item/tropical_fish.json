@@ -1,0 +1,29 @@
+{
+    "parent": "item/generated",
+    "textures": {
+        "layer0": "item/tropical_fish"
+    },
+    "overrides": [
+        {"predicate": {"custom_model_data": 1}, "model": "item/pumpkin_slice"},
+        {"predicate": {"custom_model_data": 2}, "model": "item/cactus_fruit"},
+        {"predicate": {"custom_model_data": 3}, "model": "item/cooked_egg"},
+        {"predicate": {"custom_model_data": 4}, "model": "item/spruce_cone"},
+        {"predicate": {"custom_model_data": 5}, "model": "item/birch_bark"},
+        {"predicate": {"custom_model_data": 6}, "model": "item/mango"},
+        {"predicate": {"custom_model_data": 7}, "model": "item/acacia_pod"},
+        {"predicate": {"custom_model_data": 8}, "model": "item/wild_root"},
+        {"predicate": {"custom_model_data": 9}, "model": "item/moss_clump"},
+        {"predicate": {"custom_model_data": 10}, "model": "item/creeper_pod"},
+        {"predicate": {"custom_model_data": 11}, "model": "item/crimson_root"},
+        {"predicate": {"custom_model_data": 12}, "model": "item/warped_root"},
+        {"predicate": {"custom_model_data": 13}, "model": "item/lichen_clump"},
+        {"predicate": {"custom_model_data": 14}, "model": "item/ripe_wart"},
+        {"predicate": {"custom_model_data": 15}, "model": "item/ripe_sprouts"},
+        {"predicate": {"custom_model_data": 16}, "model": "item/ripe_sugar_cane"},
+        {"predicate": {"custom_model_data": 17}, "model": "item/wild_rice"},
+        {"predicate": {"custom_model_data": 18}, "model": "item/bamboo_shoot"},
+        {"predicate": {"custom_model_data": 19}, "model": "item/calamari"},
+        {"predicate": {"custom_model_data": 20}, "model": "item/glowing_calamari"},
+        {"predicate": {"custom_model_data": 21}, "model": "item/worm"}
+    ]
+}

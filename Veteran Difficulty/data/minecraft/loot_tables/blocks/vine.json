@@ -1,0 +1,49 @@
+{
+  "type": "minecraft:block",
+  "pools": [
+    {
+      "rolls": 1.0,
+      "entries": [
+        {
+          "type": "minecraft:alternatives",
+          "children": [
+            {
+              "type": "minecraft:item",
+              "name": "minecraft:vine",
+              "conditions": [
+                {
+                  "condition": "minecraft:match_tool",
+                  "predicate": {
+                    "items": [
+                      "minecraft:shears"
+                    ]
+                  }
+                }
+              ]
+            },
+            {
+              "type": "group",
+              "children": [
+                {
+                  "type": "minecraft:item",
+                  "weight": 1,
+                  "name": "minecraft:tropical_fish",
+                  "functions": [
+                    {
+                      "function": "minecraft:set_nbt",
+                      "tag": "{CustomModelData:10,display:{Name:'{\"text\":\"Creeper Pod\",\"italic\":false}'}}"
+                    }
+                  ]
+                },
+                {
+                  "type": "minecraft:empty",
+                  "weight": 9
+                }
+              ]
+            }
+          ] 
+        }
+      ]    
+    }
+  ]
+}
